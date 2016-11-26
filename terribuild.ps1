@@ -69,6 +69,9 @@ Copy-Item $lbconfig_dir\LBConfig\bin\$lbconfig_configuration\*.dll .\DIST
 Write-Output "Copying subs to DIST\languagebarrier"
 Copy-Item -Recurse .\subs .\DIST\languagebarrier
 
+Write-Output "Copying config to DIST\languagebarrier"
+Copy-Item .\config\* .\DIST\languagebarrier
+
 Write-Output ""
 
 Write-Output "Running mgsfontgen"

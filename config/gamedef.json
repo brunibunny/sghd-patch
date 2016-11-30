@@ -1,5 +1,23 @@
 {
     "__schema_version":2,
+    "bgmClear": -1,
+    "maxLoadedScripts": 16,
+    "mpkIdScriptMpk": 3,
+    "mpkIdBgmMpk": 7,
+    "audioPlayerIdBgm1": 7,
+    "firstFontId": 78,
+    "coordsMultiplier": 1.5,
+    "fontCellWidth": 32,
+    "fontCellHeight": 32,
+    "fontRowLength": 64,
+    "glyphRangeFullwidthStart": 351,
+    "defaultLineLength": 1280,
+    "defaultMaxCharacters": 255,
+    "underlineGlyphX": 1009.5,
+    "underlineGlyphY": 193.5,
+    "backlogHighlightDefaultHeight": -34,
+    "glyphIdFullwidthSpace": 0,
+    "glyphIdHalfwidthSpace": 63,
     "signatures":{
         "game":{
             "backlogHighlightHeight":{
@@ -170,7 +188,20 @@
             "useOfPCurrentBgm":{
                 "occurrence":0,
                 "offset":17,
-                "pattern":"8B 89 58 43 00 00 81 F9 FF FF 00 00 74 22 5F 89 0D ?? ?? ?? ??"
+                "pattern":"8B 89 58 43 00 00 81 F9 FF FF 00 00 74 22 5F 89 0D ?? ?? ?? ??",
+                "expr":"*ptr"
+            },
+            "useOfPLoopBgm":{
+                "occurrence":0,
+                "offset":17,
+                "pattern":"8B 89 58 43 00 00 81 F9 FF FF 00 00 74 22 5F 89 0D ?? ?? ?? ??",
+                "expr":"(*ptr)+ 4"
+            },
+            "useOfPShouldPlayBgm":{
+                "occurrence":0,
+                "offset":17,
+                "pattern":"8B 89 58 43 00 00 81 F9 FF FF 00 00 74 22 5F 89 0D ?? ?? ?? ??",
+                "expr":"(*ptr) + 12"
             },
             "useOfPpLotsOfState":{
                 "occurrence":0,
@@ -181,6 +212,30 @@
                 "occurrence":0,
                 "offset":1,
                 "pattern":"68 ?? ?? ?? ?? 50 FF 91 ?? ?? ?? ?? 8B F0"
+            },
+            "useOfGlyphWidthsFont1":{
+                "occurrence":0,
+                "offset":0,
+                "pattern":"55 8B EC B8 ?? ?? ?? ?? E8 ?? ?? ?? ?? A1 ?? ?? ?? ?? 33 C5 89 45 FC 8B 45 14 8B 4D 18 85 C0 BA ?? ?? ?? ?? 0F 44 C2 53 89 45 14",
+                "expr":"*(ptr + 0x83)"
+            },
+            "useOfGlyphWidthsFont2":{
+                "occurrence":0,
+                "offset":0,
+                "pattern":"55 8B EC B8 ?? ?? ?? ?? E8 ?? ?? ?? ?? A1 ?? ?? ?? ?? 33 C5 89 45 FC 8B 45 14 8B 4D 18 85 C0 BA ?? ?? ?? ?? 0F 44 C2 53 89 45 14",
+                "expr":"*(ptr + 0x74)"
+            },
+            "useOfColors":{
+                "occurrence":0,
+                "offset":0,
+                "pattern":"55 8B EC B8 ?? ?? ?? ?? E8 ?? ?? ?? ?? A1 ?? ?? ?? ?? 33 C5 89 45 FC 8B 45 14 8B 4D 18 85 C0 BA ?? ?? ?? ?? 0F 44 C2 53 89 45 14",
+                "expr":"*(ptr + 0x272) - 0x4"
+            },
+            "useOfDialoguePages":{
+                "occurrence":0,
+                "offset":0,
+                "pattern":"55 8B EC 83 EC 0C 53 57 8B 7D 0C 8B DF 69 ?? ?? ?? ?? ?? 89 5D F8 83 BB ?? ?? ?? ?? ?? 0F 84 ?? ?? ?? ?? 56 E8 ?? ?? ?? ?? F3 ?? ?? ?? ?? ?? ?? ?? 33 F6 89 75 F4 39 ?? ?? ?? ?? ?? 0F 86 ?? ?? ?? ?? 8A ?? ?? ?? ?? ?? ?? 88 45 FF 84 C0 0F 84 ?? ?? ?? ?? 8B 45 08 8B DF",
+                "expr":"*(ptr + 0x18) - 0xC"
             }
         }
     }

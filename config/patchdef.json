@@ -1,6 +1,12 @@
 {
     "__schema_version":2,
     "appdatadir":"Committee of Zero\\SGHD",
+    "dialogueRedesignYOffsetShift": 15,
+    "dialogueRedesignLineHeightShift": -3,
+    "backlogHighlightHeightShift": 11,
+    "outlineExtraX": 4,
+    "outlineTextureId": 247,
+    "sghdPhoneXPadding": 2,
     "fileRedirection":{
         "fixTranslation":{
             "system":{

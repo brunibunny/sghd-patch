@@ -1,213 +1,269 @@
 {
-    "__schema_version":2,
-    "appdatadir":"Committee of Zero\\SGHD",
+  "__schema_version": 2,
+  "appdatadir": "Committee of Zero\\SGHD",
+  "base": {
+    "hookText": false,
+    "textureFiltering": false,
+    "exitBlackScreenFix": false,
     "dialogueRedesignYOffsetShift": 15,
     "dialogueRedesignLineHeightShift": -3,
     "backlogHighlightHeightShift": 11,
     "outlineExtraX": 4,
     "outlineTextureId": 247,
     "sghdPhoneXPadding": 2,
-    "fileRedirection":{
-        "fixTranslation":{
-            "system":{
-                "13":59,
-                "4":58,
-                "6":57
-            }
-        },
-        "font":{
-            "system":{
-                "10":0,
-                "9":0
-            }
-        },
-        "hqAudio":{
-            "bgm":{
-                "128":55,
-                "129":56,
-                "130":60
-            }
-        },
-        "hqCG":{
-            "bg":{
-                "128":1,
-                "129":2,
-                "133":3,
-                "134":4,
-                "137":5,
-                "138":6,
-                "344":7,
-                "353":8,
-                "355":9,
-                "356":10,
-                "357":11,
-                "358":12,
-                "359":13,
-                "360":14,
-                "361":15,
-                "362":16,
-                "363":17,
-                "364":18,
-                "365":19,
-                "366":20,
-                "367":21,
-                "368":22,
-                "369":23,
-                "370":24,
-                "371":25,
-                "372":26,
-                "373":27,
-                "374":28,
-                "375":29,
-                "377":30,
-                "378":31,
-                "379":32,
-                "380":33,
-                "381":34,
-                "384":35,
-                "410":36,
-                "414":37,
-                "421":38,
-                "425":39,
-                "426":40,
-                "427":41,
-                "428":42,
-                "429":43,
-                "430":44,
-                "431":45,
-                "432":46,
-                "433":47,
-                "434":48,
-                "441":49,
-                "473":50,
-                "476":51,
-                "477":52,
-                "479":53,
-                "481":54
-            }
-        }
-    },
-    "fmv":{
-        "fonts":[
-            "Aller_Rg.ttf",
-            "Eligible-Regular.ttf",
-            "HanaMinA.ttf",
-            "Indira_K.ttf",
-            "kochi-gothic-subst.ttf",
-            "KOZMINPR6N-BOLD_0.OTF",
-            "msgothic.ttc",
-            "msmincho.ttc",
-            "NixieOne-Regular.ttf",
-            "Roboto-Regular.ttf",
-            "SilkRemington-SBold.ttf",
-            "Stilu-Light.otf"
-        ],
-        "hqAudio":{
-            "ar.bk2":81,
-            "ending_c.bk2":72,
-            "ending_f.bk2":72,
-            "ending_m.bk2":72,
-            "ending_r.bk2":72,
-            "ending_s.bk2":72,
-            "imv041.bk2":128,
-            "imv042.bk2":129,
-            "op.bk2":68,
-            "op2.bk2":130
-        },
-        "subs":{
-            "jpVideo":{
-                "imv041.bk2":"imv041.bk2.ass",
-                "prologue01.bk2":"prologue01.bk2.ass",
-                "prologue02.bk2":"prologue02.bk2.ass"
-            },
-            "karaoke":{
-                "ar.bk2":"ar.bk2.ass",
-                "ending_c.bk2":"ending_c.bk2.ass",
-                "ending_f.bk2":"ending_f.bk2.ass",
-                "ending_m.bk2":"ending_m.bk2.ass",
-                "ending_r.bk2":"ending_r.bk2.ass",
-                "ending_s.bk2":"ending_s.bk2.ass",
-                "imv042.bk2":"imv042.bk2.ass",
-                "op.bk2":"op.bk2.ass",
-                "op2.bk2":"op2.bk2.ass"
-            },
-            "lqKaraoke":{
-                "ar.bk2":"lq_ar.bk2.ass",
-                "ending_c.bk2":"lq_ending_c.bk2.ass",
-                "ending_f.bk2":"lq_ending_f.bk2.ass",
-                "ending_m.bk2":"lq_ending_m.bk2.ass",
-                "ending_r.bk2":"lq_ending_r.bk2.ass",
-                "ending_s.bk2":"lq_ending_s.bk2.ass",
-                "imv042.bk2":"lq_imv042.bk2.ass",
-                "op.bk2":"lq_op.bk2.ass",
-                "op2.bk2":"lq_op2.bk2.ass"
-            }
-        }
-    },
-    "stringRedirection":{
-        "fixTranslation":{
-            "1":{
-                "11":16,
-                "12":17,
-                "16":18,
-                "17":19,
-                "22":20,
-                "34":21,
-                "35":22,
-                "36":23,
-                "38":24,
-                "39":25,
-                "4":13,
-                "40":26,
-                "42":27,
-                "43":28,
-                "44":29,
-                "45":51,
-                "46":52,
-                "47":53,
-                "5":14,
-                "6":15,
-                "75":30
-            },
-            "2":{
-                "104":48,
-                "105":49,
-                "107":50,
-                "68":35,
-                "69":36,
-                "70":37,
-                "72":38,
-                "73":39,
-                "74":40,
-                "81":41,
-                "82":42,
-                "83":43,
-                "84":44,
-                "93":45,
-                "94":46,
-                "98":47
-            },
-            "3":{
-                "12":31,
-                "21":32,
-                "22":33,
-                "23":34
-            },
-            "7":{
-                "10":8,
-                "11":9,
-                "12":10,
-                "13":11,
-                "14":12,
-                "2":0,
-                "3":1,
-                "4":2,
-                "5":3,
-                "6":4,
-                "7":5,
-                "8":6,
-                "9":7
-            }
-        }
+    "fmv": {
+      "fonts": [
+        "Aller_Rg.ttf",
+        "Eligible-Regular.ttf",
+        "HanaMinA.ttf",
+        "Indira_K.ttf",
+        "kochi-gothic-subst.ttf",
+        "KOZMINPR6N-BOLD_0.OTF",
+        "msgothic.ttc",
+        "msmincho.ttc",
+        "NixieOne-Regular.ttf",
+        "Roboto-Regular.ttf",
+        "SilkRemington-SBold.ttf",
+        "Stilu-Light.otf"
+      ]
     }
+  },
+  "settings": {
+    "fixTranslation": {
+      "type": "bool",
+      "setters": {
+        "fileRedirection": {
+          "system": {
+            "13": 59,
+            "4": 58,
+            "6": 57
+          }
+        },
+        "stringRedirection": {
+          "1": {
+            "11": 16,
+            "12": 17,
+            "16": 18,
+            "17": 19,
+            "22": 20,
+            "34": 21,
+            "35": 22,
+            "36": 23,
+            "38": 24,
+            "39": 25,
+            "4": 13,
+            "40": 26,
+            "42": 27,
+            "43": 28,
+            "44": 29,
+            "45": 51,
+            "46": 52,
+            "47": 53,
+            "5": 14,
+            "6": 15,
+            "75": 30
+          },
+          "2": {
+            "104": 48,
+            "105": 49,
+            "107": 50,
+            "68": 35,
+            "69": 36,
+            "70": 37,
+            "72": 38,
+            "73": 39,
+            "74": 40,
+            "81": 41,
+            "82": 42,
+            "83": 43,
+            "84": 44,
+            "93": 45,
+            "94": 46,
+            "98": 47
+          },
+          "3": {
+            "12": 31,
+            "21": 32,
+            "22": 33,
+            "23": 34
+          },
+          "7": {
+            "10": 8,
+            "11": 9,
+            "12": 10,
+            "13": 11,
+            "14": 12,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 3,
+            "6": 4,
+            "7": 5,
+            "8": 6,
+            "9": 7
+          }
+        }
+      }
+    },
+    "replaceCGs": {
+      "type": "bool",
+      "setters": {
+        "fileRedirection": {
+          "bg": {
+            "128": 1,
+            "129": 2,
+            "133": 3,
+            "134": 4,
+            "137": 5,
+            "138": 6,
+            "344": 7,
+            "353": 8,
+            "355": 9,
+            "356": 10,
+            "357": 11,
+            "358": 12,
+            "359": 13,
+            "360": 14,
+            "361": 15,
+            "362": 16,
+            "363": 17,
+            "364": 18,
+            "365": 19,
+            "366": 20,
+            "367": 21,
+            "368": 22,
+            "369": 23,
+            "370": 24,
+            "371": 25,
+            "372": 26,
+            "373": 27,
+            "374": 28,
+            "375": 29,
+            "377": 30,
+            "378": 31,
+            "379": 32,
+            "380": 33,
+            "381": 34,
+            "384": 35,
+            "410": 36,
+            "414": 37,
+            "421": 38,
+            "425": 39,
+            "426": 40,
+            "427": 41,
+            "428": 42,
+            "429": 43,
+            "430": 44,
+            "431": 45,
+            "432": 46,
+            "433": 47,
+            "434": 48,
+            "441": 49,
+            "473": 50,
+            "476": 51,
+            "477": 52,
+            "479": 53,
+            "481": 54
+          }
+        }
+      }
+    },
+    "improveTextDisplay": {
+      "type": "bool",
+      "setters": {
+        "hookText": true,
+        "fileRedirection": {
+          "system": {
+            "10": 0,
+            "9": 0
+          }
+        }
+      }
+    },
+    "textureFiltering": {
+      "type": "bool",
+      "setters": {
+        "textureFiltering": true
+      }
+    },
+    "exitBlackScreenFix": {
+      "type": "bool",
+      "setters": {
+        "exitBlackScreenFix": true
+      }
+    },
+    "hqFmvAudio": {
+      "type": "bool",
+      "setters": {
+        "fmv": {
+          "audioRedirection": {
+            "ar.bk2": 81,
+            "ending_c.bk2": 72,
+            "ending_f.bk2": 72,
+            "ending_m.bk2": 72,
+            "ending_r.bk2": 72,
+            "ending_s.bk2": 72,
+            "imv041.bk2": 128,
+            "imv042.bk2": 129,
+            "op.bk2": 68,
+            "op2.bk2": 130
+          }
+        },
+        "fileRedirection": {
+          "bgm": {
+            "128": 55,
+            "129": 56,
+            "130": 60
+          }
+        }
+      }
+    },
+    "jpVideoSubs": {
+      "type": "bool",
+      "setters": {
+        "fmv": {
+          "subs": {
+            "imv041.bk2": "imv041.bk2.ass",
+            "prologue01.bk2": "prologue01.bk2.ass",
+            "prologue02.bk2": "prologue02.bk2.ass"
+          }
+        }
+      }
+    },
+    "karaokeSubs": {
+      "type": "choice",
+      "choices": {
+        "normal": {
+          "fmv": {
+            "subs": {
+              "ar.bk2": "ar.bk2.ass",
+              "ending_c.bk2": "ending_c.bk2.ass",
+              "ending_f.bk2": "ending_f.bk2.ass",
+              "ending_m.bk2": "ending_m.bk2.ass",
+              "ending_r.bk2": "ending_r.bk2.ass",
+              "ending_s.bk2": "ending_s.bk2.ass",
+              "imv042.bk2": "imv042.bk2.ass",
+              "op.bk2": "op.bk2.ass",
+              "op2.bk2": "op2.bk2.ass"
+            }
+          }
+        },
+        "lowQuality": {
+          "fmv": {
+            "subs": {
+              "ar.bk2": "lq_ar.bk2.ass",
+              "ending_c.bk2": "lq_ending_c.bk2.ass",
+              "ending_f.bk2": "lq_ending_f.bk2.ass",
+              "ending_m.bk2": "lq_ending_m.bk2.ass",
+              "ending_r.bk2": "lq_ending_r.bk2.ass",
+              "ending_s.bk2": "lq_ending_s.bk2.ass",
+              "imv042.bk2": "lq_imv042.bk2.ass",
+              "op.bk2": "lq_op.bk2.ass",
+              "op2.bk2": "lq_op2.bk2.ass"
+            }
+          }
+        }
+      }
+    }
+  }
 }

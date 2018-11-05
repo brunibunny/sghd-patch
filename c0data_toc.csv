@@ -56,12 +56,18 @@
 52,c0data\IBG095.png,IBG095.png
 53,c0data\IBG097.png,IBG097.png
 54,c0data\IBG099.png,IBG099.png
-# high-quality FMV audio (from JAST release)
-55,c0data\imv041.ogg,imv041.ogg
-56,c0data\imv042.ogg,imv042.ogg
+# high-quality FMV audio (from the PS3 release)
+55,c0data\audioRedirect\ar.ogg,ar.ogg
+56,c0data\audioRedirect\farfalla.ogg,farfalla.ogg
+57,c0data\audioRedirect\geniac.ogg,geniac.ogg
+58,c0data\audioRedirect\heaven.ogg,heaven.ogg
+59,c0data\audioRedirect\prologue01.ogg,prologue01.ogg
+60,c0data\audioRedirect\prologue02.ogg,prologue02.ogg
+61,c0data\audioRedirect\skyclad.ogg,skyclad.ogg
+62,c0data\audioRedirect\steiner.ogg,steiner.ogg
+63,c0data\audioRedirect\timeleapbg.ogg,timeleapbg.ogg
+64,c0data\audioRedirect\verthandi.ogg,verthandi.ogg
 # TL fix
-57,c0data\DATA01.dds,DATA01.dds
-58,c0data\CLEARLIST.DDS,CLEARLIST.DDS
-59,c0data\MOVMENU.DDS,MOVMENU.DDS
-# SONG1 cut for A/V sync with op2.bk2
-60,c0data\geniac_hq_cut.ogg,geniac_hq_cut.ogg
+65,c0data\DATA01.dds,DATA01.dds
+66,c0data\CLEARLIST.DDS,CLEARLIST.DDS
+67,c0data\MOVMENU.DDS,MOVMENU.DDS
